@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+
 from __future__ import print_function
 
 import tensorflow as tf
 import cv2
 import sys
 sys.path.append("game/")
-import wrapped_flappy_bird as game
+import game.wrapped_flappy_bird as game
 import random
 import numpy as np
 from collections import deque

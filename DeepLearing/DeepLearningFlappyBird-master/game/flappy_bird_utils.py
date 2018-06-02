@@ -1,3 +1,4 @@
+import os
 import pygame
 import sys
 def load():
@@ -17,9 +18,9 @@ def load():
     IMAGES, SOUNDS, HITMASKS = {}, {}, {}
 
     # numbers sprites for score display
-    IMAGES['numbers'] = (
+    IMAGES['numbers'] = (       
         pygame.image.load('assets/sprites/0.png').convert_alpha(),
-        pygame.image.load('assets/sprites/1.png').convert_alpha(),
+        pygame.image.load('assets/sprites/1.png').convert_alpha(),       
         pygame.image.load('assets/sprites/2.png').convert_alpha(),
         pygame.image.load('assets/sprites/3.png').convert_alpha(),
         pygame.image.load('assets/sprites/4.png').convert_alpha(),
