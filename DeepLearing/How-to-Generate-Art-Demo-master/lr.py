@@ -1,60 +1,22 @@
-import numpy as np
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import AdaBoostRegressor
-from sklearn import datasets
-from sklearn.metrics import mean_squared_error, explained_variance_score
-from sklearn.utils import shuffle
-
+import pandas as pd
+from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
-housing_data = datasets.load_boston()
+# Assign the dataframe to this variable.
+# TODO: Load the data
+bmi_life_data = pd.read_csv("bmi_and_life_expectancy.csv")
 
-x, y = shuffle(housing_data.data, housing_data.target, random_state=7)
-print(x)
-print(y)
+# Make and fit the linear regression model
+#TODO: Fit the model and Assign it to bmi_life_model
+bmi_life_model = LinearRegression()
 
-num_training = int(0.8 * len(x))
-x_train, y_train = x[:num_training], y[:num_training]
-x_test, y_test = x[num_training:], y[num_training:]
+bmi_life_model.fit(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']])
 
-dt_regressor = DecisionTreeRegressor(max_depth=4)
-dt_regressor.fit(x_train, y_train)
+# Mak a prediction using the model
+# TODO: Predict life expectancy for a BMI value of 21.07931
+laos_life_exp = bmi_life_model.predict(21.07931)
 
-ab_regressor = AdaBoostRegressor(DecisionTreeRegressor(max_depth=4),
-                                 n_estimators=400, random_state=7)
-ab_regressor.fit(x_train, y_train)
+# 1.真实的点
+plt.scatter(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']], color='blue')
 
-y_pred_dt = dt_regressor.predict(x_test)
-mse = mean_squared_error(y_test, y_pred_dt)
-evs = explained_variance_score(y_test, y_pred_dt)
-print("\n******** DecisionTreeRegressor*******")
-print("Mean Squared Error:", round(mse, 2))
-print("Explained Variance Score:", round(evs, 2))
-
-y_pred_ab = ab_regressor.predict(x_test)
-mse = mean_squared_error(y_test, y_pred_ab)
-evs = explained_variance_score(y_test, y_pred_ab)
-print("\n******** AdaBoost Performance*******")
-print("Mean Squared Error:", round(mse, 2))
-print("Explained Variance Score:", round(evs, 2))
-
-
-def plot_feature_importances(feature_importances, title, feature_names):
-    feature_importances = 100 * (feature_importances / max(feature_importances))
-
-    index_sorted = np.flipud(np.argsort(feature_importances))
-
-    pos = np.arange(index_sorted.shape[0]) + 0.5
-
-    plt.figure()
-    plt.bar(pos, feature_importances[index_sorted], align='center')
-    plt.xticks(pos, feature_names[index_sorted])
-    plt.ylabel('Relative Importance')
-    plt.title(title)
-    plt.show()
-
-
-plot_feature_importances(dt_regressor.feature_importances_,
-                         'Decision Tree regressor', housing_data.feature_names)
-plot_feature_importances(ab_regressor.feature_importances_,
-                         'Adaboost regressor', housing_data.feature_names)
+plt.show()
