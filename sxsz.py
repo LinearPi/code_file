@@ -1,37 +1,48 @@
-import re
-from mylib import toUrl
-from urllib import request
-import urllib
-import os
+import numpy
+from keras.datasets import mnist
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.layers import Flatten
+from keras.layers.convolutional import Convolution2D
+from keras.layers.convolutional import MaxPooling2D
+from keras.utils import np_utils
 
-def reportProcess(hasDl,block,size):
-    print(f'\rdownload:{1.0 if hasDl*block/size>1 else hasDl*block/size:5.1f}')
+print('ok')
+seed = 7
+numpy.random.seed(seed)
 
+#加载数据
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+(X_train, y_train), (X_test, y_test) = mnist.load_data()
+# reshape to be [samples][channels][width][height]
+X_train = X_train.reshape(X_train.shape[0], 1, 28, 28).astype('float32')
+X_test = X_test.reshape(X_test.shape[0], 1, 28, 28).astype('float32')
 
+# normalize inputs from 0-255 to 0-1
+X_train = X_train / 255
+X_test = X_test / 255
 
-kw=input('请输入关键词')
-req = request.Request(f'https://www.doutula.com/search?keyword={toUrl(kw)}')
-req.add_header('User-Agent','MQQBrowser/7.3')
-with request.urlopen(req,timeout=3) as respond:
-    if respond and respond.code/100==2:
-        result=respond.read().decode('utf-8')
-        #控制正则表达式待匹配字符串的长度，避免高CPU占用
-        start=result.find('<!--0-->')
-        k=re.findall(r'inal="(.*?)"(?:.|\s)*?ne">(.*?)</p',
-                     result[start+7:result.rfind('<div class="pic-content text-center">')])\
-                    if start!=-1 else []
-        #下载斗图
-        if not os.path.exists(f'./{kw}/'):
-                os.makedirs(f'./{kw}/')
-        for i,(address,name) in enumerate(k):
-            print(f'图片名字:{name}\n网址：{address}\n',end=f'{"="*80}\n')
-            try:
-                request.urlretrieve(address if address.find('http')!=-1 else f'https:{address}',
-                                    os.path.join(f'./{kw}/', f'{i}.jpg'),
-                                    reporthook=reportProcess)
-            except:
-                print(f'发生错误，链接是{address}')
-        print(len(k))
-        
-    else:
-        print(f'发生错误,状态码为{respond.code}')
+# one hot encode outputs
+y_train = np_utils.to_categorical(y_train)
+y_test = np_utils.to_categorical(y_test)
+num_classes = y_test.shape[1]
+
+print(X_train.shape)
+print(x_test.shape)
+print(num_classes)
+
+import matplotlib.pyplot as plt # matplotlib的使用，subplot是子视图 里面有3个数分别是列，行，第几个视图。
+
+plt.subplot(321)
+plt.imshow(x_train[0], cmap=plt.get_cmap('gray'))
+plt.subplot(322)
+plt.imshow(x_train[1], cmap=plt.get_cmap('gray'))
+plt.subplot(323)
+plt.imshow(x_train[2], cmap=plt.get_cmap('gray'))
+plt.subplot(324)
+plt.imshow(x_train[3], cmap=plt.get_cmap('gray'))
+plt.subplot(325)
+plt.imshow(x_train[4], cmap=plt.get_cmap('gray'))
+# show the plot
+plt.show()
