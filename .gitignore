@@ -29,3 +29,7 @@ DeepLearing/tyd_tensorflow/data/t10k-labels-idx1-ubyte.gz
 DeepLearing/tyd_tensorflow/data/train-images-idx3-ubyte.gz
 django/profiles
 
+DeepLearing/tyd_tensorflow/MNIST_data/train-labels-idx1-ubyte.gz
+DeepLearing/tyd_tensorflow/MNIST_data/t10k-images-idx3-ubyte.gz
+DeepLearing/tyd_tensorflow/MNIST_data/t10k-labels-idx1-ubyte.gz
+DeepLearing/tyd_tensorflow/MNIST_data/train-images-idx3-ubyte.gz
