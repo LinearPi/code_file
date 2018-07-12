@@ -33,3 +33,11 @@ DeepLearing/tyd_tensorflow/MNIST_data/train-labels-idx1-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/t10k-images-idx3-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/t10k-labels-idx1-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/train-images-idx3-ubyte.gz
+django
+DeepLearing/interset/captcha/model/crack_capcha.model-810.meta
+DeepLearing/interset/captcha/model/checkpoint
+DeepLearing/interset/captcha/model/crack_capcha.model-0.data-00000-of-00001
+DeepLearing/interset/captcha/model/crack_capcha.model-0.index
+DeepLearing/interset/captcha/model/crack_capcha.model-0.meta
+DeepLearing/interset/captcha/model/crack_capcha.model-810.data-00000-of-00001
+DeepLearing/interset/captcha/model/crack_capcha.model-810.index

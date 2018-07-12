@@ -9,7 +9,8 @@ class Chaojiying_Client(object):
 
     def __init__(self, username, password, soft_id):
         self.username = username
-        self.password = md5(password).encode("utf-8").hexdigest()
+        password =  password.encode('utf8')
+        self.password = md5(password).hexdigest()
         self.soft_id = soft_id
         self.base_params = {
             'user': self.username,
@@ -47,7 +48,6 @@ class Chaojiying_Client(object):
 
 
 if __name__ == '__main__':
-    chaojiying = Chaojiying_Client('pizili', 'Li.15280221', '4005')
-    im = open('a.jpg', 'rb').read()
+    chaojiying = Chaojiying_Client('pizili118', 'li15280221', '4005')
+    im = open('D:\code_file\DeepLearing\interset\chaojiying_Python\\a.jpg', 'rb').read()
     print(chaojiying.PostPic(im, 4005))
-

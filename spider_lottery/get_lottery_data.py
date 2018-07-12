@@ -36,7 +36,7 @@ def create_tabel():
     cursor.execute(sql_table)
     conn.commit()
 
-def income_data(data):
+def income_data(data):     
     # 数据库的链接
     conn = pymysql.Connect(
         host='localhost',
