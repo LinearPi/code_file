@@ -33,7 +33,7 @@ class SlidingTrack(object):
 
         while currtent < self.position:
             if currtent < self.mid:
-                # 距离的计算公式
+                # 距离的计算公式 y = tv + 1/2a**t 
                 move = speed * self.t + 0.5 * self.up_a * self.t * self.t
                 # 将生成的移动距离添加到列表中
                 move_list.append(round(move))
@@ -48,7 +48,7 @@ class SlidingTrack(object):
                 if speed <= 0:
                     break
 
-        print(speed)
+        print('速度：{}'.format(speed))
 
         if speed < 0:
             x, y = 3, 2
@@ -71,6 +71,8 @@ class SlidingTrack(object):
 
         move_list.extend(end_track)
         print(move_list)
+        print(len(move_list))
+        print('*'*20)
         print(self.position)
 
         return move_list

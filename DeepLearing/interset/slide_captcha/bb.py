@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+import random
 
 from track import SlidingTrack
 
@@ -25,26 +26,36 @@ class CrackJee(object):
     def _set_options(self):
         options = Options()
         options.add_argument("--window-size=1366,768")
-        # options.add_argument("--headless")
-        # options.add_argument("--disable-gpu")
+        # options.add_argument("--headless") # 启动无界面
+        # options.add_argument("--disable-gpu")  # gpu
         return options
 
     # 跳转虎啸首页，点击注册按钮，并输入手机号码
     def go_to_register(self):
         try:
-            self.driver.get(r'https://www.huxiu.com/')
+            self.driver.get(r'https://www.bilibili.com/')
             # 获取注册按钮并点击
             register_button = self.driver.find_element_by_xpath(
-                '//*[@id="top"]/div/ul[2]/li[4]/a')
+                '//*[@id="app"]/div[1]/div[1]/div[3]/div[3]/ul/li[1]/a')
             register_button.click()
             # 获取手机号输入框
             phonenumber_input = self.wait.until(
                 EC.visibility_of_element_located((
-                    By.XPATH, '//*[@id="sms_username"]'
+                    By.XPATH, '//*[@id="login-username"]'
                 )))
             # 输入手机号
             phonenumber_input.clear()
-            phonenumber_input.send_keys('16602856392')
+            phonenumber_input.send_keys('18780236045')
+            
+            # 输入密码
+            password_input = self.wait.until(
+                EC.visibility_of_element_located((
+                    By.XPATH, '//*[@id="login-passwd"]'
+                )))
+            # 输入手机号
+            time.sleep(random.randrange(0,2))
+            password_input.clear()
+            password_input.send_keys('li15280221')                  
         except Exception as e:
             print('进入注册页面出错：%s' % e)
             self.driver.quit()
@@ -54,15 +65,16 @@ class CrackJee(object):
         try:
             # 获取无缺口图片
             nogap_image = self.wait.until(EC.presence_of_all_elements_located((
-                By.XPATH, '//div[@class="gt_cut_fullbg gt_show"]/div'
+                By.XPATH, '//div[@class="gt_cut_fullbg gt_show"]/div'               
             )))
             nogap_image = self.get_complete_image(nogap_image)
+            nogap_image.save('nogap_image.jpg')
             # 获取有缺口图片
             gap_image = self.wait.until(EC.presence_of_all_elements_located((
                 By.XPATH, '//div[@class="gt_cut_bg gt_show"]/div'
             )))
             gap_image = self.get_complete_image(gap_image)
-
+            gap_image.save('gap_image.jpg')
             # 获取图像不同点的坐标，以此为滑块移动的距离
             return self.get_image_diff(nogap_image, gap_image)
         except Exception as e:
@@ -87,6 +99,7 @@ class CrackJee(object):
         im = Image.open(im)
         # 生成一个新的相同大小的空白图片
         new_im = Image.new('RGB', (260, 116))
+        new_im.save('a.jpg')
 
         # 设置一个粘贴坐标，坐标每次循环加10，则从左到右依次粘贴
         count_up = 0
@@ -131,7 +144,7 @@ class CrackJee(object):
             # 找到滑动的滑块
             slide_button = self.wait.until(EC.visibility_of_element_located((
                 By.XPATH,
-                '//*[@id="login-modal"]//div[@class="gt_slider"]/div[2]'
+                '//*[@id="gc-box"]/div/div[3]/div[2]'
             )))
             # 点击并拿起滑块
             ActionChains(self.driver).click_and_hold(slide_button).perform()
@@ -140,6 +153,7 @@ class CrackJee(object):
                 ActionChains(self.driver).move_by_offset(
                     xoffset=i, yoffset=0).perform()
             # 松开鼠标
+            time.sleep(1)
             ActionChains(self.driver).release().perform()
         except Exception as e:
             print('滑动滑块出错：%s' % e)
@@ -148,11 +162,13 @@ class CrackJee(object):
     # 控制整体运行逻辑
     def __call__(self):
         try:
-            self.go_to_register()
+            self.go_to_register()     
+            time.sleep(random.randrange(1,3))
             position = self.get_image()
+            time.sleep(random.randrange(1,3))
             self.slide_button(position)
         finally:
-            time.sleep(3)
+            time.sleep(8)
             self.driver.quit()
 
 
