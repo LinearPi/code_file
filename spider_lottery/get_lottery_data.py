@@ -25,25 +25,29 @@ def create_tabel():
         host='localhost',
         port=3306,
         user='root',
-        password='shan123456',
-        db='datadb',
+        password='li123456',
+        db='lotterydb',
         charset='utf8'
         )
     # 获取游标
     cursor = conn.cursor()
     # 创建表单
-    sql_table = "CREATE TABLE qxct (date int(5), data int(7)zerofill)"
+    sql_table = "CREATE TABLE qxc (date int(5), data int(7)zerofill)"
     cursor.execute(sql_table)
     conn.commit()
+    cursor.close()
+    conn.close()
+
 
 def income_data(data):
     # 数据库的链接
     conn = pymysql.Connect(
+        # host='118.24.26.162',
         host='localhost',
         port=3306,
         user='root',
-        password='shan123456',
-        db='datadb',
+        password='li123456',
+        db='lotterydb',
         charset='utf8'
         )
     # 获取游标
@@ -51,7 +55,7 @@ def income_data(data):
   
     # 加入数据 加入循环, 把所有的数据都传进去 写一个循环
     for i in range(0,119):
-        sql_add_data = "INSERT INTO qxct (date, data) VALUES ( '%s', '%s' )"
+        sql_add_data = "INSERT INTO qxc (date, data) VALUES ( '%s', '%s' )"
         dataes = (str(data[i][0]), str(data[i][1]))
         cursor.execute(sql_add_data % dataes)
         conn.commit()
@@ -59,10 +63,45 @@ def income_data(data):
     cursor.close()
     conn.close()
 
+
+
+def query_data():
+     # 数据库的链接
+    conn = pymysql.Connect(
+        # host='118.24.26.162',
+        host='localhost',
+        port=3306,
+        user='root',
+        password='li123456',
+        db='lotterydb',
+        charset='utf8'
+        )
+    # 获取游标
+    cursor = conn.cursor()
+    # 添加查询的语句
+    sql_query = "select * from qxc" 
+    cursor.execute(sql_query)
+    try:
+        cursor.execute(sql_query)
+        results = cursor.fetchall()
+        for row in results:
+            date = row[0]
+            data = row[1]
+            # print(data)
+            print("date : {},  data : {}".format(date,data))
+    except:
+        print("error")
+    # conn.commit()
+
+    cursor.close()
+    conn.close()
+
+
+
 if __name__ =='__main__':
-    get_data_and_date(url)
-    income_data(dd)
     # create_tabel()
-    # for i in range(1, len(dd)+1):
-    #     print(dd[i][0], dd[i][1])
+
+    # get_data_and_date(url)
     # income_data(dd)
+
+    query_data()
