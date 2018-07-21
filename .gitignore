@@ -1,4 +1,4 @@
-top4/tap4fun竞赛数据.zip
+﻿top4/tap4fun竞赛数据.zip
 top4/tap4fun竞赛数据/tap_fun_test.csv
 top4/tap4fun竞赛数据/tap_fun_train.csv
 DeepLearing/How_to_do_style_transfer_in_tensorflow-master/How_to_do_style_transfer_in_tensorflow-master/vgg16/vgg16.tfmodel
@@ -33,3 +33,19 @@ DeepLearing/tyd_tensorflow/MNIST_data/train-labels-idx1-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/t10k-images-idx3-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/t10k-labels-idx1-ubyte.gz
 DeepLearing/tyd_tensorflow/MNIST_data/train-images-idx3-ubyte.gz
+django
+DeepLearing/interset/captcha/model/crack_capcha.model-810.meta
+DeepLearing/interset/captcha/model/checkpoint
+DeepLearing/interset/captcha/model/crack_capcha.model-0.data-00000-of-00001
+DeepLearing/interset/captcha/model/crack_capcha.model-0.index
+DeepLearing/interset/captcha/model/crack_capcha.model-0.meta
+DeepLearing/interset/captcha/model/crack_capcha.model-810.data-00000-of-00001
+DeepLearing/interset/captcha/model/crack_capcha.model-810.index
+
+
+DeepLearing/kaggle_mnist/all/MNIST_data/train-labels-idx1-ubyte.gz
+DeepLearing/kaggle_mnist/all/MNIST_data/t10k-images-idx3-ubyte.gz
+DeepLearing/kaggle_mnist/all/MNIST_data/t10k-labels-idx1-ubyte.gz
+DeepLearing/kaggle_mnist/all/MNIST_data/train-images-idx3-ubyte.gz
+DeepLearing/kaggle_mnist/all/test.csv
+DeepLearing/kaggle_mnist/all/train.csv

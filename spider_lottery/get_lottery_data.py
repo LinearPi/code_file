@@ -39,7 +39,7 @@ def create_tabel():
     conn.close()
 
 
-def income_data(data):
+def income_data(data):     
     # 数据库的链接
     conn = pymysql.Connect(
         # host='118.24.26.162',
