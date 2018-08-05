@@ -8,6 +8,7 @@ import pymysql.cursors
 url = "http://trend.caipiao.163.com/qxc/?periodNumber=100"
 dd = []
 
+
 def get_data_and_date(url):
     # 只需要爬到两个数据就行, 
     data = urllib.request.urlopen(url).read()
@@ -45,9 +46,9 @@ def income_data(data):
         # host='118.24.26.162',
         host='localhost',
         port=3306,
-        user='root',
-        password='li123456',
-        db='lotterydb',
+        user='linear',
+        password='lin123456',
+        db='pk10db',
         charset='utf8'
         )
     # 获取游标
