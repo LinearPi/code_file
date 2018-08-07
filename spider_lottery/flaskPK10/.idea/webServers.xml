@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eea2eed4-fc75-4c0e-b97a-67b6d0c7aa2b" name="ssh://ubuntu@118.24.26.162:22/var/www/webenv/bin/python3.5">
+        <fileTransfer host="118.24.26.162" port="22" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -8,6 +8,7 @@ import pymysql.cursors
 url = "http://trend.caipiao.163.com/qxc/?periodNumber=100"
 dd = []
 
+
 def get_data_and_date(url):
     # 只需要爬到两个数据就行, 
     data = urllib.request.urlopen(url).read()

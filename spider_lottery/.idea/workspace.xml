@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7af99b90-2f18-4245-b75d-c9f71294c3e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/code_file.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../29752.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/.ipynb_checkpoints/demo-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/demo-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/.ipynb_checkpoints/add-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/aa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/add.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/.idea/captcha.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/.ipynb_checkpoints/create_captcha-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/captchaIdentify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/create_captcha.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/create_captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/onlyNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/captcha/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/frame4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/slide_captcha/b_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/slide_captcha/bb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/slide_captcha/jeecaptcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/slide_captcha/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/interset/time_sleep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/.ipynb_checkpoints/k_mnist_try-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/.ipynb_checkpoints/use_keras_mnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/cnn_mnist_datagen (2).csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/cnn_mnist_datagen.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/k_mnist_try.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/kaggle_mnist/all/use_keras_mnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/Keras_mnint(89%)-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/TensorBoard-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/add_layer-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/add_layer-matplitlib-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/add_layer_borad-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/add_layer_matplitlib-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/borad-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/cnn_keras-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/how_to_use_TensorBoard-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/keras2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/linear_mnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/mnist_data_analyze-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/tensorflow_board-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/tensorflow_mnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/.ipynb_checkpoints/use_matplotlib-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/Keras_mnint(89%).ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/TensorBoard.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/add_layer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/add_layer_borad.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/add_layer_matplitlib.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/animaion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/basic_animation.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/borad.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/cnn_keras.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/how_to_use_TensorBoard.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/keras2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/linear_mnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/log/add.log/events.out.tfevents.1530262045.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/matplotlib_ll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/mnist_data_analyze.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/simple_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/tensorflow_board.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/tensorflow_mnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/keras_vgg16/use_matplotlib.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/logs/1/events.out.tfevents.1530191843.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/logs/log/simple.log/events.out.tfevents.1530190541.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/logs/log/simple.log/events.out.tfevents.1530191012.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/logs/log/simple.log/events.out.tfevents.1530191019.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/logs/log/simple.log/events.out.tfevents.1530191182.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/CNN-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/LR_c-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/LinerR-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/RNN-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/VGG-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/Variable-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/Variable2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/cnn详解-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/mnist-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/simpleNeuralNetwork-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/softmax_loss-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/.ipynb_checkpoints/tensorboard-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/CNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/LR_c.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/LinerR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/LogisticR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/RNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/SaveRestore.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/Save_CNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/VGG.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/Variable.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/Variable2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/cnn详解.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/input_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/logs/events.out.tfevents.1530780194.SHANQUAN-PC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/ml_GradientDescent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/mnist.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/simpleNeuralNetwork.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/softmax_loss.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tyd_tensorflow/tensorboard.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tz_class/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tz_class/.ipynb_checkpoints/homework-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tz_class/.ipynb_checkpoints/tensorflow_copy-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tz_class/homework.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/tz_class/tensorflow_copy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/.ipynb_checkpoints/Intro_to_GANs_Exercises-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/.ipynb_checkpoints/Intro_to_GANs_Solution-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/Intro_to_GANs_Exercises.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/Intro_to_GANs_Solution.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/assets/gan_diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/assets/gan_network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/gan_mnist/checkpoints/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/.ipynb_checkpoints/Anna_KaRNNa-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/.ipynb_checkpoints/Anna_KaRNNa_Exercises-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/Anna_KaRNNa.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/Anna_KaRNNa_Exercises.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/anna.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/assets/charRNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/assets/charRNN@0.5x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/assets/charseq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/assets/sequence_batching.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/assets/sequence_batching@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/checkpoints/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/intro-to-rnns/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/.ipynb_checkpoints/stockdemo-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/lstm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/sp500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/keras_stock_predicte/stockdemo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project1/.ipynb_checkpoints/Your_first_neural_network-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project1/Your_first_neural_network.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project1/Your_first_neural_network.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project1/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project2/.ipynb_checkpoints/dlnd_image_classification-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project2/dlnd_image_classification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project2/dlnd_image_classification.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project2/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project2/problem_unittests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project3/dlnd_tv_script_generation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project3/dlnd_tv_script_generation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project3/dlnd_tv_script_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/dlnd_language_translation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/dlnd_language_translation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/dlnd_language_translation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/dlnd_language_translation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project4/problem_unittests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project5/dlnd_face_generation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project5/dlnd_face_generation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project5/dlnd_face_generation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project5/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DeepLearing/uda/project5/problem_unittests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backpro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gap_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nogap_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plot_digits_classification (1).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plot_polynomial_interpolation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_lottery_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_conntect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sxsz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/.ipynb_checkpoints/demo-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/.ipynb_checkpoints/demo-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepLearing/How-to-Generate-Art-Demo-master/demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepLearing/interset/chaojiying_Python/chaojiying.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepLearing/interset/chaojiying_Python/chaojiying.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepLearing/interset/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepLearing/interset/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/profiles" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1367724919">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_lottery_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrspttt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="31" selection-start-line="30" selection-end-line="31" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bootstrspttt.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-32" />
+    <option name="y" value="-20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spider_lottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_lottery" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7af99b90-2f18-4245-b75d-c9f71294c3e1" name="Default Changelist" comment="" />
+      <created>1533193736765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533193736765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_lottery_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrspttt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" selection-start-line="30" selection-end-line="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

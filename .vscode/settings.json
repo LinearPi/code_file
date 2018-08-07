@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
+    "python.pythonPath": "D:\\Anaconda\\envs\\tensorflow\\python.exe",
+    "python.jediEnabled": false
+=======
     "python.pythonPath": "D:\\Anaconda\\envs\\crawler\\python.exe"
+>>>>>>> def2b4c11a81ad330967a05a07594c7cb70fea8d
 }
