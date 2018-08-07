@@ -1,8 +1,12 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "python.pythonPath": "D:\\Anaconda\\envs\\tensorflow\\python.exe",
     "python.jediEnabled": false
 =======
     "python.pythonPath": "D:\\Anaconda\\envs\\crawler\\python.exe"
 >>>>>>> def2b4c11a81ad330967a05a07594c7cb70fea8d
+=======
+    "python.pythonPath": "/Users/pizi/anaconda3/envs/crawler/bin/python"
+>>>>>>> 5a54066077d5ec6e852495dd82d55f7ca658cb5c
 }

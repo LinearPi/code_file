@@ -46,9 +46,9 @@ def income_data(data):
         # host='118.24.26.162',
         host='localhost',
         port=3306,
-        user='root',
-        password='li123456',
-        db='lotterydb',
+        user='linear',
+        password='lin123456',
+        db='pk10db',
         charset='utf8'
         )
     # 获取游标
