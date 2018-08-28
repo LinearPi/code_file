@@ -26,15 +26,7 @@ def parse_one_page(html):
     return items
 
 def save_to_csv(items):
-<<<<<<< HEAD
-    file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_7.csv'
-=======
-<<<<<<< HEAD
-    file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_7_26.csv'
-=======
     file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_8.csv'
->>>>>>> 5a54066077d5ec6e852495dd82d55f7ca658cb5c
->>>>>>> 8871d73cabebc908c60da16940c8457a34860a4d
     with open(file_path,'a') as files:
     # reader =csv.reader(files)    
 
@@ -68,30 +60,13 @@ def save_data(items):
 
 
 def main():
-<<<<<<< HEAD
-    file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_7.csv'
-=======
-<<<<<<< HEAD
-    file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_7_26.csv'
-    with open(file_path,'a') as files:
-            
-        writer = csv.writer(files)
-        writer.writerow(['data', 'time', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'])
-        # for i in range(0,7):
-        url = 'https://kj.cjcp.com.cn/gaopin/bjpk10/index.php?topage=1' 
-        html = get_one_page(url)    
-        items= parse_one_page(html)
-        # print(items)
-        save_to_csv(items)
-=======
     file_path = '/Users/pizi/Documents/git_flie/code_file/pk10_8.csv'
->>>>>>> 8871d73cabebc908c60da16940c8457a34860a4d
     with open(file_path,'a') as files:
             
         # writer = csv.writer(files)
         # writer.writerow(['data', 'time', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'])
-<<<<<<< HEAD
-        for i in range(0,9742):
+
+        for i in range(0,10):
             try:                
                 url = 'https://kj.cjcp.com.cn/gaopin/bjpk10/index.php?topage='+ str(i)
                 html = get_one_page(url)    
@@ -102,15 +77,7 @@ def main():
                 print(i)
             except TypeError:
                 pass
-=======
-        for i in range(0,9726):
-            url = 'https://kj.cjcp.com.cn/gaopin/bjpk10/index.php?topage='+str(i) 
-            html = get_one_page(url)    
-            items= parse_one_page(html)
-            # print(items)
-            save_to_csv(items)
->>>>>>> 5a54066077d5ec6e852495dd82d55f7ca658cb5c
->>>>>>> 8871d73cabebc908c60da16940c8457a34860a4d
+
     # print(html)
     files.close()
 
