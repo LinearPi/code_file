@@ -8,7 +8,6 @@ import pymysql.cursors
 url = "http://trend.caipiao.163.com/qxc/?periodNumber=100"
 dd = []
 
-
 def get_data_and_date(url):
     # 只需要爬到两个数据就行, 
     data = urllib.request.urlopen(url).read()
@@ -53,17 +52,14 @@ def income_data(data):
         )
     # 获取游标
     cursor = conn.cursor()
-  
     # 加入数据 加入循环, 把所有的数据都传进去 写一个循环
     for i in range(0,119):
         sql_add_data = "INSERT INTO qxc (date, data) VALUES ( '%s', '%s' )"
         dataes = (str(data[i][0]), str(data[i][1]))
         cursor.execute(sql_add_data % dataes)
         conn.commit()
-
     cursor.close()
     conn.close()
-
 
 
 def query_data():
@@ -86,7 +82,9 @@ def query_data():
         cursor.execute(sql_query)
         results = cursor.fetchall()
         for row in results:
+            # 打印时间
             date = row[0]
+            # 打印数据
             data = row[1]
             # print(data)
             print("date : {},  data : {}".format(date,data))
@@ -96,7 +94,6 @@ def query_data():
 
     cursor.close()
     conn.close()
-
 
 
 if __name__ =='__main__':
