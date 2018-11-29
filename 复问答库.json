@@ -1,0 +1,36 @@
+[
+    {
+        "answer": [
+            {
+                "at_users": [
+                ],
+                "link_des": "",
+                "link_img": "",
+                "link_title": "",
+                "msg_type": 1,
+                "raw_msg": "说话的df二连那",
+                "wxid_to_send": ""
+            }
+        ],
+        "exact_keywords": "qwer",
+        "fuzzy_keywords": "q e r w",
+        "question": "qwer"
+    },
+    {
+        "answer": [
+            {
+                "at_users": [
+                ],
+                "link_des": "",
+                "link_img": "",
+                "link_title": "",
+                "msg_type": 1,
+                "raw_msg": "我是谁，我来之哪里，我怎么啦 。",
+                "wxid_to_send": ""
+            }
+        ],
+        "exact_keywords": "123",
+        "fuzzy_keywords": "2 3 1",
+        "question": "111"
+    }
+]

@@ -1,0 +1,3 @@
+([('time_sleep',
+   '/Users/gouweiqi/Documents/code_py/code_file/interset/create_exe/dist/time_sleep',
+   'EXECUTABLE')],)
