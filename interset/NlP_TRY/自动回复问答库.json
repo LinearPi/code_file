@@ -1,0 +1,19 @@
+[
+    {
+        "answer": [
+            {
+                "at_users": [
+                ],
+                "link_des": "",
+                "link_img": "",
+                "link_title": "",
+                "msg_type": 1,
+                "raw_msg": "您好，请问有什么事情嘛？",
+                "wxid_to_send": ""
+            }
+        ],
+        "exact_keywords": "",
+        "fuzzy_keywords": "您好",
+        "question": "老师您好。"
+    }
+]
